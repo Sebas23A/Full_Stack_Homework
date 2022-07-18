@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>My Favorite Restaurants</title>
+    </head>
+    <style>
+        body {
+          background-image: url('beige_background.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+    </style>
+    <body>
+        <header>
+            <h1>Favorite Restaurants</h1>
+            <img src="https://www.pngall.com/wp-content/uploads/8/Restaurant-PNG-Free-Image.png" alt="Restaurants" width="200" height="200"/>
+            <br>
+            <br>
+            <!-- TODO: Find a suitable background image
+            https://www.iconspng.com/images/wooden-background/wooden-background.jpg -->
+        </header>
+        
+        <h3>Week 1-Lecture 3 Homework</h3>
+        <p>I will cover the <b>top 5</b> restaurants in my opinion. I will also <i><s>try</s></i> tackle the Easy, Medium, and Hard challenges for this activity.</p>
+
+        <h4>My Top 5 restaurants</h4>
+        <ol>
+            <li>
+                <a href="my_kitchen.html" target="_self">My Kitchen</a>
+                <details>
+                    <summary>Hint:</summary>
+                    This will take you to another page (be aware, it's still a work in progress), from there, you'll be able to return to this page by clicking on the home button.
+                </details>
+            </li>
+            <li>
+                <a href="https://www.tapeliamiami.com/" target="_blank">Tapelia Spanish Cuisine - Miami</a>
+            </li>
+            <li>
+                <a href="https://ecuaviche.com.ec/" target="_blank">Ecuaviche - Ecuador</a>
+            </li>
+            <li>
+                <a href="https://www.junnsushi.com" target="_blank">Junn All You Can Eat Sushi - Chandler</a>
+            </li>
+            <li>
+                <a href="https://www.cornishpastyco.com/" target="_blank">Cornish Pasty Co. - Phoenix</a>
+            </li>
+            <!-- Create an image button (image stored on folder - copy relative path by right clicking on image) that redirects you to www.weho.com 
+            <li>
+                <a href="https://www.weho.org" target="_blank">
+                    <img src="hollywood.jpg" alt="Hollywood" width="300" height="150"/> 
+                </a>
+            </li>   -->     
+        </ol>
+        <br>
+        <hr>
+        <h3>Contact Form</h3>
+        <form>
+            <label for="name">Name: </label>
+            <input id="name" type="text" name="name" placeholder="Please type your name"/> <br> <br>
+            <label for="email">E-mail: </label>
+            <input id="email" type="text" name="email" placeholder="Please type your e-mail"/> <br> <br>
+            <label for="mobile">Phone Number: </label>
+            <input id="mobile" type="text" name="mobile" placeholder="Phone number"/> <br> <br>
+            <label for="type">Phone Type:</label>
+            <select id="type" name="type">
+                <option value="mobile">Mobile</option>
+                <option value="home">Home</option>
+                <option value="work">Work</option>
+            </select>
+            <br>
+            <br>
+            <label for="comment">Please add any comments or suggestions (if any):</label> <br>
+            <textarea id="comment" name="comment" placeholder="Thanks for taking the time to do this." rows="8" cols="50"></textarea>
+            <br> 
+            <input type="button" value="Submit">
+
+        </form>
+    </body>
+</html>

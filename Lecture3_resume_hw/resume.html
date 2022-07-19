@@ -104,7 +104,7 @@
         font-weight: bolder;
     }
 
-    ul.skills li{
+    ul.skills li {
         color: gray;
         width: 33.333333%;
         float: left;
@@ -113,7 +113,32 @@
         padding: 0;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 16px;
-        /* margin-bottom: 0px; */
+    }
+
+    ul.work-exp li {
+        color: gray;
+        width: 100%;
+        float: left;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+    }
+
+    #work-experience-table {
+        min-width: 100%;
+        table-layout: auto;
+        color: gray;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+        margin: 5mm;
+        padding-top: 10px;
+        /* padding-left: 5px; */
+        /* padding-bottom: 5px; */
+        margin-top: -20px;
+        line-height: 1.2;
+        border-spacing: 0 5px;
+
     }
 </style>
 
@@ -142,25 +167,31 @@
     <!-- EDUCATION SECTION -->
     <section>
         <h3 class="section_name">Education</h3><br>
-        <table>
-            <!-- Table Row -->
+        <table id="work-experience-table">
             <tr>
-                <!-- Table header -->
-                <td>First Name</td>
-                <td>Last Name</td>
+                <td>Embry-Riddle Aeronautical University, Prescott AZ<br style="line-height:22px">
+                    <strong>B.S., Electrical Engineering, Magna Cum Laude</strong>
+                </td>
+                <td> Aug 2018 - May 2020<br style="line-height:22px">
+                    <strong>GPA: 3.82/4.00</strong>
+                </td>
             </tr>
             <tr>
-                <td>Sebastian</td>
-                <td>Aguas</td>
+                <td>Phoenix College, Phoenix AZ<br style="line-height:22px">
+                    Associate in Science, Transferred /No Degree
+                </td>
+                <td>Aug 17 - May 18<br style="line-height:22px">
+                </td>
             </tr>
             <tr>
-                <td>Sebastian</td>
-                <td>Gomez</td>
+                <td>Universidad de las Fuerzas Armadas - ESPE, Quito-Ecuador<br style="line-height:22px">
+                    B.S., Electronical Engineering - Automation and Control<br style="line-height:22px">
+                    Transferred/No Degree
+                </td>
+                <td> 2013-2016<br style="line-height:22px">
+                </td>
             </tr>
         </table>
-        <!-- <p>Obtain a full-time position in the field of Engineering that would fully utilize my skills and
-            knowledge obtained during my academic career as well as the experience obtained during my early
-            career, and that would also allow me to gain practical experience in the industry.</p> -->
     </section>
 
     <!-- TECHNICAL SKILLS SECTION -->
@@ -177,7 +208,7 @@
     <!-- SOFT SKILLS SECTION -->
     <section>
         <h3 class="section_name">Soft Skills</h3><br>
-        <ul class="skills" style="list-style-type: disc; margin-top:-10px">
+        <ul class="skills" style="list-style-type: disc; margin-bottom: 45px; margin-top:-10px">
             <!-- Strong makes it bold -->
             <li>Communication Skills</li>
             <li>Problem Solving</li>
@@ -191,86 +222,67 @@
         </ul>
         <br>
     </section>
-
     <!-- WORK EXPERIENCE SECTION -->
     <section>
         <h3 class="section_name">Work Experience</h3><br>
-        <p><strong>Intel Corporation, Chandler, AZ</strong>
-        </p>
-        <p><strong>Packaging Engineer R&D - IHS Area - ATTD Department </strong></p>
-        <ul style="list-style-type: disc; margin-top:-10px">
+        <table id="work-experience-table">
+            <tr>
+                <td><strong>Packaging Engineer R&D - IHS Area - ATTD Department</strong><br style="line-height:22px">
+                    <strong>Intel Corporation, Chandler, AZ</strong>
+                </td>
+                <td> Dec 20' - Current</td>
+            </tr>
+        </table>
+
+        <ul class="work-exp" style="list-style-type: disc; margin-bottom: 45px; margin-top: -18px">
             <!-- Strong makes it bold -->
-            <li>Communication Skills</li>
-            <li>Problem Solving</li>
-            <li>Testing & Troubleshooting</li>
-            <li>Adaptability</li>
-            <li>Leadership</li>
-            <li>Team worker</li>
-            <li>Work-ethic</li>
-            <li>Decision-making</li>
-            <li>Organizational skills</li>
+            <li>Provide project management, package design/development and sustaining support for
+                semiconductor assemblies.</li>
+            <li>Responsible for the support and development of New Product Introductions (NPIs),
+                process optimizations, maintain Process Control Systems (PCS), and support Platform
+                Engineers with the testing and implementation phase of new technologies.</li>
+            <li>Provides consultation concerning packaging problems and improvements in the packaging
+                process during testing stages for Platform Engineers.
+            </li>
+            <li>Identifies equipment deficiencies based on Statistical Process Control (SPC) analysis during
+                production processes and aligns with Equipment Technicians and Tool Owners to address
+                and create solutions to these issues.</li>
+            <li>Support Platform Engineers with testing and data collecting activities while on the floor, to
+                improve and identify possible root causes for issues affecting revenue or development
+                products.</li>
+            <li>Identify and drive improvements on quality, safety, reliability, process stability, and
+                productivity.</li>
         </ul>
-        <br>
+
+        <table id="work-experience-table">
+            <tr>
+                <td><strong>Engineering Technician - CAM/TCB Area - ATTD Department</strong><br
+                        style="line-height:22px">
+                    <strong>Intel Corporation, Chandler, AZ</strong>
+                </td>
+                <td> Aug 20' - Nov 20'</td>
+            </tr>
+        </table>
+
+        <ul class="work-exp" style="list-style-type: disc; margin-bottom: 45px; margin-top: -18px">
+            <!-- Strong makes it bold -->
+            <li>Perform operational test and fault isolation on systems and equipment.</li>
+            <li>Support engineering activities including test and checkout of specialized test equipment.</li>
+            <li>Conduct engineering test to collect data, while working in a clean room environment.</li>
+            <li>Perform setups and calibrations in tools according to engineering specifications.</li>
+            <li>Troubleshoot failures in tools upon request of engineers and/or manufacturing technicians.</li>
+            <li>Perform Preventive Maintenance (PM) in tools according to schedule, following specs and
+                LOTO (Lock Out Tag Out) Procedures.</li>
+        </ul>
     </section>
 
-    <h3>Week 1-Lecture 3 Homework</h3>
-    <p>I will cover the <b>top 5</b> restaurants in my opinion. I will also <i><s>try</s></i> tackle the Easy, Medium,
-        and Hard challenges for this activity.</p>
-
-    <h4>My Top 5 restaurants</h4>
-    <ol>
-        <li>
-            <a href="my_kitchen.html" target="_self">My Kitchen</a>
-            <details>
-                <summary>Hint:</summary>
-                This will take you to another page (be aware, it's still a work in progress), from there, you'll be able
-                to return to this page by clicking on the home button.
-            </details>
-        </li>
-        <li>
-            <a href="https://www.tapeliamiami.com/" target="_blank">Tapelia Spanish Cuisine - Miami</a>
-        </li>
-        <li>
-            <a href="https://ecuaviche.com.ec/" target="_blank">Ecuaviche - Ecuador</a>
-        </li>
-        <li>
-            <a href="https://www.junnsushi.com" target="_blank">Junn All You Can Eat Sushi - Chandler</a>
-        </li>
-        <li>
-            <a href="https://www.cornishpastyco.com/" target="_blank">Cornish Pasty Co. - Phoenix</a>
-        </li>
-        <!-- Create an image button (image stored on folder - copy relative path by right clicking on image) that redirects you to www.weho.com 
-            <li>
-                <a href="https://www.weho.org" target="_blank">
-                    <img src="hollywood.jpg" alt="Hollywood" width="300" height="150"/> 
-                </a>
-            </li>   -->
-    </ol>
     <br>
-    <hr>
-    <h3>Contact Form</h3>
-    <form>
-        <label for="name">Name: </label>
-        <input id="name" type="text" name="name" placeholder="Please type your name" /> <br> <br>
-        <label for="email">E-mail: </label>
-        <input id="email" type="text" name="email" placeholder="Please type your e-mail" /> <br> <br>
-        <label for="mobile">Phone Number: </label>
-        <input id="mobile" type="text" name="mobile" placeholder="Phone number" /> <br> <br>
-        <label for="type">Phone Type:</label>
-        <select id="type" name="type">
-            <option value="mobile">Mobile</option>
-            <option value="home">Home</option>
-            <option value="work">Work</option>
-        </select>
-        <br>
-        <br>
-        <label for="comment">Please add any comments or suggestions (if any):</label> <br>
-        <textarea id="comment" name="comment" placeholder="Thanks for taking the time to do this." rows="8"
-            cols="50"></textarea>
-        <br>
-        <input type="button" value="Submit">
+    <br>
+    <br>
+    <br>
+    <br>
 
-    </form>
+
 </body>
 
 </html>
